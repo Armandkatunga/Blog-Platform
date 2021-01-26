@@ -1,0 +1,35 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armandkatunga/Blog-Platform.git"
+  },
+  "author": "katunga cubaka armand",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Armandkatunga/Blog-Platform/issues"
+  },
+  "homepage": "https://github.com/Armandkatunga/Blog-Platform#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7"
+  }
+}
